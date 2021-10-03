@@ -3,21 +3,22 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-// import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Courses from './components/Courses/Courses';
 import About from './components/About/About';
 import Mentors from './components/Mentors/Mentors';
 import NotFound from './components/NotFound/NotFound';
-// import Footer from './components/Footer/Footer';
+
 
 
 function App() {
   return (
     <div className="App">
+
+      {/* Routing starts */}
       <Router>
 
-        {/* <Header></Header> */}
+
 
         <Switch>
           <Route exact path="/">
@@ -48,8 +49,11 @@ function App() {
 
         </Switch>
 
-        {/* <Footer></Footer> */}
+
       </Router>
+
+      {/* Routing ends  */}
+
     </div>
   );
 }
