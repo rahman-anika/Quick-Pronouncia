@@ -1,0 +1,20 @@
+.mentor-container{
+    padding: 20px;
+    
+    }
+    
+    .mentor-cart{
+    margin:10px;
+    border:1px solid rgb(12, 112, 12);
+    border-radius: 10px;
+    padding: 10px;
+    height: 440px;
+    color:rgb(12, 112, 12);
+    
+    }
+
+    .mentor-img{
+        height: 110px;
+        width: 90px;
+        
+    }

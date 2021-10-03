@@ -1,0 +1,122 @@
+[
+    {
+        "id": "c101",
+        "name": "English for Children",
+        "price": 70,
+        "types": "basic",
+        "duration": "8 weeks",
+        "lessons": "40",
+        "language": "English",
+        "image": "https://lh3.googleusercontent.com/vV2H011I-golsxZT-oEPLT5bg-YuK3b5xaJ3bv37OcajcO2lBqW95LHMjrMd5_d8ye8"
+    },
+    {
+        "id": "c104",
+        "name": "Mastering Grammar",
+        "price": 120,
+        "types": "premium",
+        "duration": "12 weeks",
+        "lessons": "70",
+        "language": "English",
+        "image": "https://www.kidsworldfun.com/images/elearning/learning-english-grammar.jpg"
+    },
+    {
+        "id": "c106",
+        "name": " Professional English",
+        "price": 160,
+        "types": "premium",
+        "duration": "16 weeks",
+        "lessons": "90",
+        "language": "English",
+        "image": "https://www.thedialogue.org/wp-content/uploads/2021/08/informe-ingles-ENGLISH_page-0001-1-800x1115.jpg"
+    },
+    {
+        "id": "c111",
+        "name": "Introduction to French",
+        "price": 90,
+        "types": "basic",
+        "duration": "12 weeks",
+        "lessons": "70",
+        "language": "French",
+        "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572874090l/48693929._SY475_.jpg"
+    },
+    {
+        "id": "c112",
+        "name": "Introduction to Spanish",
+        "price": 110,
+        "types": "basic",
+        "duration": "12 weeks",
+        "lessons": "70",
+        "language": "Spanish",
+        "image": "https://m.media-amazon.com/images/I/51T-xcjqZXL.jpg"
+    },
+    {
+        "id": "c103",
+        "name": "Introduction to German",
+        "price": 90,
+        "types": "basic",
+        "duration": "12 weeks",
+        "lessons": "71",
+        "language": "German",
+        "image": "https://image.slidesharecdn.com/b07zrwwnjm-germanlanguageforbeginnersbylanguageschool-191118195758/95/2019-german-language-for-beginners-pdf-the-ultimate-guide-to-improve-your-german-learning-new-skills-with-phrases-and-advanced-techniques-from-a-basic-level-to-forever-fluent-by-language-school-1-638.jpg?cb=1574107220"
+    },
+    {
+        "id": "c102",
+        "name": "Mastering French",
+        "price": 190,
+        "types": "premium",
+        "duration": "16 weeks",
+        "lessons": "90",
+        "language": "French",
+        "image": "https://cdn.ila-france.com/wp-content/uploads/2018/01/Learn-French-Comprehension.jpg"
+    },
+    {
+        "id": "c107",
+        "name": "Matering Spanish",
+        "price": 160,
+        "types": "premium",
+        "duration": "16 weeks",
+        "lessons": "90",
+        "language": "Spanish",
+        "image": "https://m.media-amazon.com/images/I/41byWE3mkqL.jpg"
+    },
+    {
+        "id": "c109",
+        "name": "Mastering German",
+        "price": 190,
+        "types": "premium",
+        "duration": "16 weeks",
+        "lessons": "110",
+        "language": "German",
+        "image": "https://pictures.abebooks.com/isbn/9780812022100-us.jpg"
+    },
+    {
+        "id": "c105",
+        "name": "Basic Language Skills",
+        "price": 70,
+        "types": "basic",
+        "duration": "8 weeks",
+        "lessons": "40",
+        "language": "English",
+        "image": "https://www.english-efl.com/wp-content/uploads/2019/12/4-core-skill.jpg"
+    },
+    {
+        "id": "c108",
+        "name": "Introduction To Chinese",
+        "price": 90,
+        "types": "basic",
+        "duration": "12 weeks",
+        "lessons": "70",
+        "language": "Chinese",
+        "image": "https://ltl-beijing.com/wp-content/uploads/common-chinese-characters.png"
+    },
+    {
+        "id": "c131",
+        "name": "Mastering Chinese",
+        "price": 110,
+        "types": "premium",
+        "duration": "12 weeks",
+        "lessons": "90",
+        "language": "Chinese",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71tPU4kGtXL.jpg"
+    }
+]

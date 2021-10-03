@@ -1,0 +1,92 @@
+[
+    {
+        "id": "m101",
+        "name": "Omur Oztonga",
+        "gender": "female",
+        "email": "omur.oztonga@example.com",
+        "country": "Turkey",
+        "age": 42,
+        "phone": "047-78405953",
+        "image": "https://randomuser.me/api/portraits/med/women/1.jpg"
+    },
+    {
+        "id": "m102",
+        "name": "Namita Karim",
+        "gender": "female",
+        "email": "namita.karim@example.com",
+        "country": "Iran",
+        "age": 31,
+        "phone": "047-78447491",
+        "image": "https://randomuser.me/api/portraits/med/women/96.jpg"
+    },
+    {
+        "id": "m103",
+        "name": "Manfred Reviere",
+        "gender": "male",
+        "email": "manfred.reviere@example.com",
+        "country": "Switzerland",
+        "age": 41,
+        "phone": "041-78405953",
+        "image": "https://randomuser.me/api/portraits/med/men/34.jpg"
+    },
+    {
+        "id": "m104",
+        "name": "Kathryn Ortiz",
+        "gender": "female",
+        "email": "kathryn.ortiz@example.com",
+        "country": "United States",
+        "age": 27,
+        "phone": "042-78405953",
+        "image": "https://randomuser.me/api/portraits/med/women/38.jpg"
+    },
+    {
+        "id": "m301",
+        "name": "Xavier Alonso",
+        "gender": "male",
+        "email": "xavier.alonso@example.com",
+        "country": "Spain",
+        "age": 42,
+        "phone": "047-78406953",
+        "image": "https://randomuser.me/api/portraits/med/men/35.jpg"
+    },
+    {
+        "id": "m302",
+        "name": "Mike Morrison",
+        "gender": "male",
+        "email": "mike.morrison@example.com",
+        "country": "United Kingdom",
+        "age": 42,
+        "phone": "047-78405953",
+        "image": "https://randomuser.me/api/portraits/med/men/26.jpg"
+    },
+    {
+        "id": "m201",
+        "name": "Dorthea Hole",
+        "gender": "female",
+        "email": "dorthea.hole@example.com",
+        "country": "Norway",
+        "age": 26,
+        "phone": "047-77405953",
+        "image": "https://randomuser.me/api/portraits/med/women/42.jpg"
+    },
+    {
+        "id": "m202",
+        "name": "Iiris Hiltunen",
+        "gender": "female",
+        "email": "iiris.hiltunen@example.com",
+        "country": "Finland",
+        "age": 37,
+        "phone": "047-76405953",
+        "image": "https://randomuser.me/api/portraits/med/women/45.jpg"
+    },
+    {
+        "id": "m203",
+        "name": "Rayhan Khan",
+        "gender": "male",
+        "email": "rayhan.khan@example.com",
+        "country": "Iran",
+        "age": 42,
+        "phone": "047-78405953",
+        "image": "https://randomuser.me/api/portraits/med/men/99.jpg"
+    }
+]

@@ -1,0 +1,23 @@
+.header-main {
+    background-image: url("https://s3.eu-west-1.amazonaws.com/coco.lanzarote/wp-content/uploads/2016/12/que-idiomas-debes-aprender-si-eres-ingeniero-.jpg"),
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    height: 470px;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .title {
+    font-weight: bold;
+    font-size: 59px;
+  
+  }
+
+
+  .p-title {
+    color: rgb(53, 235, 235);
+    background-color: rgba(2, 116, 116,0.6);
+  }
+ 
