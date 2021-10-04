@@ -1,3 +1,5 @@
+/* footer icon starts  */
+
 .icon {
     margin: 5px;
     padding: 5px;
@@ -9,6 +11,10 @@
   .icon:hover {
     background-color: lightcyan;
   }
+
+  /* footer icon ends  */
+
+  /* footer menu starts  */
   .footer-menu {
     list-style: none;
     margin-top: 20px;
@@ -18,19 +24,36 @@
   .footer-menu:hover {
     color: lightcyan;
   }
+
+  /* footer menu ends  */
+
+  /* footer input starts  */
   .footer-input {
     padding: 8px;
     border: none;
     outline: none;
     background-color: gray;
   }
+
+  /* footer input ends  */
+
+  /* footer container starts  */
   .footer-container {
     background-color: #191919;
     padding: 50px;
     color: rgb(216, 209, 209);
   }
+
+  /* footer container ends  */
+
+/* footer phone icon starts  */
+
   .foter-phone-icon {
     font-size: 30px;
     color: lightcyan;
   }
+
+  /* footer phone icon ends  */
+
+
   

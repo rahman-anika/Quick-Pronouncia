@@ -1,8 +1,15 @@
+/* course container starts  */
+
 .course-container{
     padding: 20px;
     
 }
+
+/* course container ends  */
     
+
+/* cart starts  */
+
 .cart{
     margin:10px;
     border:1px solid goldenrod;
@@ -13,6 +20,9 @@
     
 }
 
+/* cart ends  */
+
+/* show all courses button starts  */
 .btn-courses{
     background-color: goldenrod;
     border: 1px solid goldenrod;
@@ -23,8 +33,14 @@
 
 }
 
+/* show all courses button ends  */
+
+/* course image starts  */
+
 .logo-img{
         height: 180px;
         width: 210px;
         
 }
+
+/* course image ends  */

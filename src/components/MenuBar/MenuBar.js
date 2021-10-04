@@ -9,18 +9,21 @@ const MenuBar = () => {
         <div className="MenuBar-container">
             <div className="container">
                 <div className="row">
+
+                    {/* logo starts  */}
                     <div className="col-md-2">
                         <div className="logo-img">
                             <img className="logo1" src={logo} alt="" />
                         </div>
                     </div>
+
+                    {/* logo ends  */}
+
+                    {/* menu item starts  */}
+
                     <div className="col-md-10">
                         <div className="menu-container ">
                             <ul className="d-flex align-items-end justify-content-end">
-
-
-
-
 
                                 <Link to="/home" className="items">
                                     <li>Home</li>
@@ -38,6 +41,9 @@ const MenuBar = () => {
                             </ul>
                         </div>
                     </div>
+
+                    {/* menu item ends  */}
+
                 </div>
             </div>
         </div>

@@ -1,8 +1,14 @@
+/* mentor container starts  */
+
 .mentor-container{
     padding: 20px;
     
-    }
+}
+
+/* mentor container ends  */
     
+
+/* mentor cart starts  */
     .mentor-cart{
     margin:10px;
     border:1px solid rgb(12, 112, 12);
@@ -11,10 +17,17 @@
     height: 440px;
     color:rgb(12, 112, 12);
     
-    }
+}
 
-    .mentor-img{
+/* mentor cart ends  */
+
+/* mentor image starts */
+.mentor-img{
         height: 110px;
         width: 90px;
         
-    }
+}
+
+/* mentor image ends  */
+
+

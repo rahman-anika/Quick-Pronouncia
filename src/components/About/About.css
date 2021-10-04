@@ -1,10 +1,15 @@
+/* about section image starts */
+
 .about-img{
     width: auto;
     height: 220px;
 
 }
 
+/* about section image ends */
 
+
+/* about container starts  */
 .about-container {
     background-color: white;
     padding: 50px;
@@ -12,15 +17,26 @@
     font-weight: 600;
 }
 
+/* about container ends  */
+
+
+/* why choose us per element heading starts  */
  
 .about-heading{
 color:rgb(21, 21, 129);
 
 }
 
+/* why choose us per element heading ends  */
+
+
+/* partner section icon starts  */
 .partner-icon{
 width:90px;
 height: 90px;
 
 }
+
+/* partner section icon ends  */
   
+

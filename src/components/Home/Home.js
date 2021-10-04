@@ -16,9 +16,15 @@ import MenuBar from '../MenuBar/MenuBar';
 
 
 const Home = () => {
+
+    // state declaration starts
+
     const [courses, setCourses] = useState([]);
     const [mentors, setMentors] = useState([]);
 
+    // state declaration ends
+
+    // fake data load starts from json file 
 
     useEffect(() => {
         fetch('/coursesData.json')
@@ -34,12 +40,24 @@ const Home = () => {
 
     }, []);
 
+    // fake data load ends from json file 
+
     return (
         <div>
+
+            {/* Menubar starts  */}
             <MenuBar></MenuBar>
+            {/* Menubar ends  */}
+
+            {/* Header starts  */}
             <Header></Header>
+
+            {/* Header ends  */}
+
             <br />
             <br />
+
+            {/* 1st 3 mentors showing starts  */}
 
             <h1 style={{ color: 'rgb(12, 112, 12)' }}>Our Expert Mentors</h1>
 
@@ -82,7 +100,13 @@ const Home = () => {
                 </div>
 
             </div>
+            {/* 1st 3 mentors showing ends  */}
+
+
             <br />
+
+            {/* 1st 3 services showing starts  */}
+
             <h1 style={{ color: 'goldenrod' }}>Our Services</h1>
 
             <div className="course-container">
@@ -126,9 +150,14 @@ const Home = () => {
 
             </div>
 
+            {/* 1st 3 services showing ends  */}
 
 
+            {/* Footer starts  */}
             <Footer></Footer>
+
+            {/* Footer ends  */}
+
         </div>
     );
 };

@@ -17,8 +17,12 @@ import MenuBar from '../MenuBar/MenuBar';
 
 const Mentors = () => {
 
+    // state declaration starts 
     const [mentors, setMentors] = useState([]);
 
+    // state declaration ends
+
+    // fake data load starts from json file 
 
     useEffect(() => {
         fetch('/mentorsData.json')
@@ -27,11 +31,17 @@ const Mentors = () => {
 
     }, []);
 
+    // fake data load ends from json file 
+
 
     return (
         <div>
+            {/* Menubar starts  */}
             <MenuBar></MenuBar>
+            {/* Menubar ends  */}
             <br />
+
+            {/* Mentor section starts */}
 
             <h1 style={{ color: 'rgb(12, 112, 12)' }}>Meet With Our Mentors</h1>
 
@@ -62,7 +72,13 @@ const Mentors = () => {
                 </div>
 
             </div>
+
+            {/* Mentor section ends */}
+
+            {/* Footer starts  */}
             <Footer></Footer>
+            {/* Footer ends  */}
+
         </div>
     );
 };

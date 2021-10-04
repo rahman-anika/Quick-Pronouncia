@@ -6,12 +6,22 @@ import './About.css';
 const About = () => {
     return (
         <div>
+            {/* Menubar starts */}
             <MenuBar></MenuBar>
+            {/* Menubar ends */}
+
+            {/* about section image starts  */}
+
             <div>
                 <img src="https://www.winnerschapelhouston.org/wp-content/uploads/2018/07/ABOUT-US.jpg" className="about-img" alt="" />
 
 
             </div>
+
+            {/* about section image ends  */}
+
+            {/* why choose us ssection starts  */}
+
             <div className="about-container">
 
                 <h1 className="about-heading">Why Choose Us?</h1>
@@ -67,6 +77,11 @@ const About = () => {
                 </div>
             </div>
 
+            {/* why choose us ssection ends  */}
+
+
+            {/* partners section starts */}
+
             <div className="about-container">
 
                 <h1 className="about-heading">Our Partners</h1>
@@ -103,8 +118,13 @@ const About = () => {
                 </div>
             </div>
 
+            {/* partners section ends */}
 
+            {/* Footer starts  */}
             <Footer></Footer>
+
+            {/* Footer ends  */}
+
         </div>
     );
 };

@@ -13,12 +13,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import {
 
-    // faFacebookSquare,
-    // faInstagramSquare,
-    // faTwitterSquare,
-    // faYoutube,
-
-    faCoffee,
     faPhoneVolume,
     faMapMarkedAlt,
 } from "@fortawesome/free-solid-svg-icons";
@@ -28,6 +22,8 @@ import {
 const Footer = () => {
     return (
         <div>
+
+            {/* footer container starts  */}
             <div className="footer-container">
                 <div className="container">
                     <div className="row">
@@ -35,6 +31,9 @@ const Footer = () => {
                             <div className="left-container text-start">
                                 <h1>Quick Pronouncia</h1>
                                 <h3>A Language Learning Center</h3>
+
+                                {/* footer icon starts  */}
+
                                 <div className="icons-container d-flex text-center ">
                                     <div className="icon">
                                         <FontAwesomeIcon icon={faInstagramSquare} />
@@ -49,6 +48,9 @@ const Footer = () => {
                                         <FontAwesomeIcon icon={faFacebookSquare} />
                                     </div>
                                 </div>
+
+                                {/* footer icon ends  */}
+
                                 <p className="mt-4 ">
                                     <small>
                                         *These statements have not been evaluated by the Food and
@@ -62,6 +64,9 @@ const Footer = () => {
                                 </p>
                             </div>
                         </div>
+
+                        {/* footer menu starts  */}
+
                         <div className="col-md-2">
                             <div className="footer-menu-container">
                                 <ul>
@@ -73,7 +78,13 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
+
+                        {/* footer menu ends  */}
+
                         <div className="col-md-5">
+
+                            {/* right footer menu starts  */}
+
                             <div className="right-footer-container">
                                 <h3>Sign up for the newsletter</h3>
                                 <input
@@ -107,10 +118,16 @@ const Footer = () => {
                                     </div>
                                 </div>
                             </div>
+
+                            {/* right footer menu ends  */}
+
                         </div>
                     </div>
                 </div>
             </div>
+
+            {/* footer container ends  */}
+
         </div>
     );
 };
