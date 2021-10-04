@@ -1,6 +1,7 @@
 import React from 'react';
 import './MenuBar.css';
 import { Link } from "react-router-dom";
+import logo from '../../images/QPronouncia-removebg-preview.png';
 
 
 const MenuBar = () => {
@@ -10,7 +11,7 @@ const MenuBar = () => {
                 <div className="row">
                     <div className="col-md-2">
                         <div className="logo-img">
-                            {/* <img className="w-75" src={logo} alt="" /> */}
+                            <img className="logo1" src={logo} alt="" />
                         </div>
                     </div>
                     <div className="col-md-10">
@@ -25,7 +26,7 @@ const MenuBar = () => {
                                     <li>Home</li>
                                 </Link>
                                 <Link to="/courses" className="items">
-                                    <li>Courses</li>
+                                    <li>Services</li>
                                 </Link>
                                 <Link to="/mentors" className="items">
                                     <li>Mentors</li>

@@ -11,6 +11,7 @@ import {
 
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-router-dom';
+import MenuBar from '../MenuBar/MenuBar';
 
 
 
@@ -35,6 +36,7 @@ const Home = () => {
 
     return (
         <div>
+            <MenuBar></MenuBar>
             <Header></Header>
             <br />
             <br />
@@ -81,7 +83,7 @@ const Home = () => {
 
             </div>
             <br />
-            <h1 style={{ color: 'goldenrod' }}>Choose Your Course</h1>
+            <h1 style={{ color: 'goldenrod' }}>Our Services</h1>
 
             <div className="course-container">
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Footer from '../Footer/Footer';
-import Header from '../Header/Header';
 import './Mentors.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -13,6 +12,7 @@ import {
     faEnvelopeSquare
 
 } from "@fortawesome/free-solid-svg-icons";
+import MenuBar from '../MenuBar/MenuBar';
 
 
 const Mentors = () => {
@@ -30,7 +30,7 @@ const Mentors = () => {
 
     return (
         <div>
-            <Header></Header>
+            <MenuBar></MenuBar>
             <br />
 
             <h1 style={{ color: 'rgb(12, 112, 12)' }}>Meet With Our Mentors</h1>

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Footer from '../Footer/Footer';
-import Header from '../Header/Header';
 import './Courses.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -8,6 +7,7 @@ import {
     faSignInAlt
 
 } from "@fortawesome/free-solid-svg-icons";
+import MenuBar from '../MenuBar/MenuBar';
 
 
 
@@ -30,10 +30,10 @@ const Courses = () => {
 
     return (
         <div>
-            <Header></Header>
+            <MenuBar></MenuBar>
             <br />
 
-            <h1 style={{ color: 'goldenrod' }}>Our Courses</h1>
+            <h1 style={{ color: 'goldenrod' }}>Our Services</h1>
 
 
 
